@@ -1,8 +1,18 @@
 {
-  "name": "foo",
-  "fullName": "foo",
-  "description": "a basic add-on",
-  "author": "",
-  "license": "MPL 2.0",
-  "version": "0.1"
+    "preferences": [
+        {
+            "name": "DEBUG",
+            "type": "bool",
+            "description": "Set debug mode.",
+            "value": false,
+            "title": "DEBUG"
+        }
+    ],
+    "name": "fennec-plus",
+    "license": "MPL 2.0",
+    "author": "jeff@canuckistani.ca",
+    "version": "0.1",
+    "fullName": "Fennec+",
+    "id": "fennec-plus@canuckistani.ca",
+    "description": "An add-on that fills in some missing features on Fennec."
 }
